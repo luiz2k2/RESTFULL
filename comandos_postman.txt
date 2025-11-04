@@ -1,0 +1,23 @@
+POST http://localhost:3000/api/books
+Body:
+{
+    "title": "O Senhor dos Anéis",
+    "author": "J.R.R. Tolkien",
+    "year": 1954
+}
+
+POST http://localhost:3000/api/books
+Body:
+{
+    "title": "Harry Potter e a Pedra Filosofal",
+    "author": "J.K. Rowling",
+    "year": 1997
+}
+
+POST http://localhost:3000/api/books
+Body:
+{
+    "title": "1984",
+    "author": "George Orwell",
+    "year": 1949
+}
